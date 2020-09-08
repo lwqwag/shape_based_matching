@@ -25,7 +25,7 @@ SET(CMAKE_CXX_FLAGS_DEBUG "-O0 -g2 -ggdb")
 SET(CMAKE_CXX_FLAGS_RELEASE "-O3")
 
 # opencv
-set(OpenCV_DIR D:/OpencvWindows/opencv/sources/out/build/x64-Release/bin)
+#set(OpenCV_DIR D:/OpencvWindows/opencv/sources/out/build/x64-Release/bin)
 # set(CMAKE_PREFIX_PATH ${CMAKE_PREFIX_PATH} D:/OpencvWindows/opencv/build/x64/vc15/bin)
 #set(OpenCV_DIR D:/OpencvWindows/opencv/build/x64/vc15/bin)
 find_package(OpenCV  REQUIRED)
